@@ -56,17 +56,17 @@ export const ComparisonSection: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-navy-dark mb-2">Technical Specs</h3>
-            <p className="text-navy-dark/60 mb-6">Low Barrier Entry</p>
+            <h3 className="text-xl font-bold text-navy-dark mb-2">Tech Requirement</h3>
+            <p className="text-navy-dark/60 mb-6">Start Today</p>
             <div className="text-3xl font-bold text-navy-dark mb-8 mt-auto">100% Mobile</div>
             <ul className="space-y-4">
-              <li className="flex items-start text-navy-dark font-semibold">
+              <li className="flex items-start text-navy-dark font-bold">
                 <svg className="w-5 h-5 text-navy-dark mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L9 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                Phone + Data Only
+                Smartphone + Data Only
               </li>
-              <li className="flex items-start text-navy-dark font-semibold">
+              <li className="flex items-start text-navy-dark font-bold">
                 <svg className="w-5 h-5 text-navy-dark mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L9 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                NO Laptop Required
+                NO Laptop Needed
               </li>
             </ul>
           </div>

@@ -16,7 +16,7 @@ export const CTASection: React.FC = () => {
           
           <h2 className="text-3xl md:text-5xl font-black mb-6 relative z-10">Ready to Claim Your <br />Financial Freedom?</h2>
           <p className="text-navy-dark/80 text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto relative z-10">
-            Secure your spot now. <strong>All you need is your phone and an internet connection.</strong> We only take a limited number of students per batch to ensure success.
+            Secure your spot now. <strong>Requires zero laptop skills—just a mobile phone and an internet connection.</strong>
           </p>
           
           <div className="flex flex-col items-center space-y-6 relative z-10">
@@ -34,7 +34,7 @@ export const CTASection: React.FC = () => {
             
             <div className="flex flex-col items-center">
               <span className="text-navy-dark font-black text-2xl tracking-widest uppercase">08133706257</span>
-              <p className="text-sm text-navy-dark/60 mt-1 uppercase tracking-wider font-bold">100% Smartphone Friendly Strategy</p>
+              <p className="text-sm text-navy-dark/60 mt-1 uppercase tracking-wider font-bold italic">100% Smartphone Friendly</p>
             </div>
           </div>
         </div>
