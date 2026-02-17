@@ -2,7 +2,7 @@
 import React from 'react';
 
 export const Navbar: React.FC = () => {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=2348133706257";
+  const whatsappUrl = "https://wa.me/2348133706257";
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
@@ -15,7 +15,7 @@ export const Navbar: React.FC = () => {
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#benefits" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Benefits</a>
-            <a href="#outcomes" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">What You Learn</a>
+            <a href="#outcomes" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Outcomes</a>
             <a href="#modules" className="text-sm font-medium text-slate-600 hover:text-emerald-500 transition-colors">Modules</a>
             <a 
               href={whatsappUrl}

@@ -2,7 +2,7 @@
 import React from 'react';
 
 export const CTASection: React.FC = () => {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=2348133706257";
+  const whatsappUrl = "https://wa.me/2348133706257";
 
   return (
     <section className="py-24 bg-white">
